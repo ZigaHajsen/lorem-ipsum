@@ -13,7 +13,7 @@ import {
 
 const App: React.FC = () => {
   const [count, setCount] = useState<number>(0);
-  const [text, setText] = useState<any>([]);
+  const [text, setText] = useState<string[]>([]);
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
